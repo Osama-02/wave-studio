@@ -123,9 +123,13 @@
 // mobile
 @media #{$media_smaller_sm} {
     .nk-slider-nav {
-        display: none;
+        display: block;
     }
     .nk-nav .nk-slider-categories {
         display: none;
+    }
+
+    .tab-content p{
+        line-height: 1.7;
     }
 }

@@ -2904,9 +2904,11 @@ img.rounded {
 
 @media (max-width: 991px) {
   .nk-slider-nav {
-    display: none; }
+    display: block; }
   .nk-nav .nk-slider-categories {
-    display: none; } }
+    display: none; }
+  .tab-content p {
+    line-height: 1.7; } }
 
 /*------------------------------------------------------------------
 
