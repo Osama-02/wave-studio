@@ -1,8 +1,8 @@
 /*------------------------------------------------------------------
   [Typography]
 
-  Body:     14px/2.287 gotham;
-  Headings: gotham
+  Body:     14px/2.287 Helvetica, Roboto, Arial, sans-serif;
+  Headings: Helvetica, Roboto, Arial, sans-serif
 
   Note: Most of font sizes are relative to the base font size (rem)
  -------------------------------------------------------------------*/
@@ -423,41 +423,11 @@ a:hover {
   Typography
 
  -------------------------------------------------------------------*/
-@font-face {
-  font-family: "gotham";
-  font-style: normal;
-  font-weight: 300;
-  src: url("../../../dist/assets/fonts/GOTHAM-LIGHT.OTF"); }
-
-@font-face {
-  font-family: "gotham";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../../../dist/assets/fonts/GOTHAMBOOK.TTF"); }
-
-@font-face {
-  font-family: "gotham";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../../../dist/assets/fonts/GOTHAMMEDIUM.TTF"); }
-
-@font-face {
-  font-family: "gotham";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../../../dist/assets/fonts/GOTHAM-BOLD.OTF"); }
-
-@font-face {
-  font-family: "gotham";
-  font-style: normal;
-  font-weight: 800;
-  src: url("../../../dist/assets/fonts/GOTHAM-BLACK.OTF"); }
-
 html {
   font-size: 14px; }
 
 body {
-  font-family: "gotham";
+  font-family: "Helvetica", "Roboto", "Arial", sans-serif;
   line-height: 2.287;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -478,7 +448,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "gotham";
+  font-family: "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: bold;
   margin-bottom: 20px;
   line-height: 1.7;
@@ -506,7 +476,7 @@ h6, .h6 {
 .display-2,
 .display-3,
 .display-4 {
-  font-family: "gotham";
+  font-family: "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: bold;
   margin-bottom: 20px;
   line-height: 1.1; }
@@ -3500,7 +3470,7 @@ div.nk-error {
 .nk-social-links {
   font-size: 25px;
   font-weight: bold;
-  font-family: "gotham";
+  font-family: "Helvetica", "Roboto", "Arial", sans-serif;
   margin: 0;
   padding: 0;
   margin-left: -7px;
