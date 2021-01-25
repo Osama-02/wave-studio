@@ -1,7 +1,7 @@
 <?php
-    $from = 'nK Contact Form';
-    $to = 'nkdevinfo@gmail.com';
-    $subject = 'Message from nK contact form';
+    $from = 'Contact Form';
+    $to = 'contact@wavestudio.ly';
+    $subject = 'Message from contact form';
 
     function errorHandler ($message) {
         die(json_encode(array(
