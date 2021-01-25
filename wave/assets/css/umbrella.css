@@ -497,7 +497,7 @@ h6, .h6 {
   h1, .h1 {
     font-size: 28px; }
   h2, .h2 {
-    font-size: 23px; }
+    font-size: 1.3em; }
   h3, .h3 {
     font-size: 20px; }
   h4, .h4 {
@@ -514,6 +514,10 @@ h6, .h6 {
     font-size: 34px; }
   .display-4 {
     font-size: 30px; } }
+
+@media (max-width: 543px) {
+  .display-2 {
+    font-size: 2em; } }
 
 /*------------------------------------------------------------------
 
@@ -2900,9 +2904,11 @@ img.rounded {
 
 @media (max-width: 991px) {
   .nk-slider-nav {
-    display: none; }
+    display: block; }
   .nk-nav .nk-slider-categories {
-    display: none; } }
+    display: none; }
+  .tab-content p {
+    line-height: 1.7; } }
 
 /*------------------------------------------------------------------
 
@@ -3046,7 +3052,7 @@ img.rounded {
   margin-bottom: -36px;
   color: #39FF14;
   line-height: 1.1;
-  z-index: 4; }
+  z-index: 3; }
 
 .nk-layout .nk-layout-content-subtitle {
   position: fixed;
@@ -3133,6 +3139,73 @@ img.rounded {
   width: 100%;
   height: 100%;
   background: black; }
+
+.custom-style {
+  background-color: rgba(0, 0, 0, 0.9824);
+  color: white; }
+
+.nk-article-title {
+  text-shadow: 2px 0px 3px #C61D48; }
+
+.nk-main {
+  border-left: 1px solid #39FF14;
+  box-shadow: -5px 0px 5px #C61D48; }
+
+.line-animation {
+  width: 100%;
+  height: 2px;
+  background-color: #C61D48;
+  margin-top: -30px;
+  margin-bottom: 3em;
+  animation-name: lineAnim;
+  animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  animation-duration: 2s;
+  border-bottom: 1px solid #39FF14; }
+
+.watch-videos {
+  font-size: .9em;
+  border: 2px solid green;
+  border-radius: 50px;
+  padding: 15px;
+  text-decoration: none;
+  text-shadow: 0px 4px  #C61D48;
+  background-color: #161616; }
+
+.watch-videos:hover {
+  text-decoration: none;
+  background-color: none;
+  background-color: none;
+  color: #39FF14;
+  text-shadow: 0px 6px  #C61D48; }
+
+.watch-videos:active {
+  text-decoration: none; }
+
+@keyframes lineAnim {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+
+@media only screen and (max-width: 991px) {
+  .nk-main {
+    border: none;
+    box-shadow: none; } }
+
+@media only screen and (max-width: 600px) {
+  .custom-style {
+    font-size: 16px; }
+  .nk-article-title {
+    font-size: 30px; }
+  .custom-style .video-card .title {
+    font-size: 29px;
+    color: #39FF14; }
+  .custom-style .video-card .desc {
+    font-size: .8em;
+    padding-right: 0em;
+    line-height: 1.8em;
+    margin-top: 2em;
+    margin-bottom: 10em; } }
 
 .nk-blog {
   display: block; }

@@ -78,7 +78,7 @@ h6, .h6 {
         font-size: 28px;
     }
     h2, .h2 {
-        font-size: 23px;
+        font-size: 1.3em;
     }
     h3, .h3 {
         font-size: 20px;
@@ -103,5 +103,11 @@ h6, .h6 {
     }
     .display-4 {
         font-size: 30px;
+    }
+}
+
+@media #{$media_xxs} {
+    .display-2{
+        font-size: 2em;
     }
 }
